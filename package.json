@@ -18,6 +18,6 @@
         "local": "node index.js --local",
         "single": "node single.js"
     },
-    "author": "Justin Szczurowski <jszczurowski@lillypulitzer.com>",
+    "author": "Test",
     "license": "ISC"
 }
