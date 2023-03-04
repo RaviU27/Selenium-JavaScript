@@ -1,0 +1,73 @@
+{
+    "root": true,
+    "extends": "airbnb-base/legacy",
+    "rules": {
+        "import/no-unresolved": "off",
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1,
+                "VariableDeclarator": 1
+            }
+        ],
+        "func-names": "off",
+        "linebreak-style": "off",
+        "require-jsdoc": "error",
+        "valid-jsdoc": [
+            "error",
+            {
+                "preferType": {
+                    "Boolean": "boolean",
+                    "Number": "number",
+                    "object": "Object",
+                    "String": "string"
+                },
+                "requireReturn": false
+            }
+        ],
+        "vars-on-top": "off",
+        "global-require": "off",
+        "no-shadow": [
+            "error",
+            {
+                "allow": [
+                    "err",
+                    "callback"
+                ]
+            }
+        ],
+        "max-len": "off",
+        "space-before-function-paren": "warn",
+        "no-mixed-operators": 0,
+        "no-new": 0,
+        "no-plusplus": [
+            "error",
+            {
+                "allowForLoopAfterthoughts": true
+            }
+        ],
+        "new-cap": [
+            "error",
+            {
+                "capIsNewExceptions": [
+                    "SecureRandom",
+                    "MessageDigest"
+                ]
+            }
+        ]
+    },
+    "parser": "@babel/eslint-parser",
+    "globals": {
+        "$": true,
+        "customer": true,
+        "dw": "readonly",
+        "empty": true,
+        "grecaptcha": true,
+        "request": true,
+        "session": true,
+        "ssp": true,
+        "trace": true,
+        "XML": true
+    }
+}
