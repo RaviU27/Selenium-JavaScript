@@ -1,6 +1,6 @@
-# Lilly Pulitzer Integration Testing
+# Integration Testing using Selenium Javascript
 
-This is the Lilly Pulitzer integration testing project. It's an in-house integration testing system that utilizes a system of helper methods and events to make writing integrations tests easy and very readable.
+This is the integration testing project. It's an in-house integration testing system that utilizes a system of helper methods and events to make writing integrations tests easy and very readable.
 ## Installation
 
 Clone the repo and use [Yarn](https://yarnpkg.com/) or [NPM](https://www.npmjs.com/) to get started:
